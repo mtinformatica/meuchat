@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
 		width: "100vw",
 		height: "100vh",
 		background: "linear-gradient(to right, #76EE00 , #76EE00 , #458B00)",
-		backgroundImage: "",
+		backgroundImage: "none",
 		backgroundRepeat: "no-repeat",
 		backgroundSize: "100% 100%",
 		backgroundPosition: "center",
@@ -93,11 +93,10 @@ const Login = () => {
 				<div>
 					<img style={{ margin: "0 auto", width: "100%" }} src={logo} alt="Whats" />
 				</div>
-				{<Typography component="h1" variant="h5">
+				{/*<Typography component="h1" variant="h5">
 					{i18n.t("login.title")}
-				</Typography>}
+				</Typography>*/}
 				<form className={classes.form} noValidate onSubmit={handlSubmit}>
-					Magno 
 					<TextField
 						variant="outlined"
 						margin="normal"
