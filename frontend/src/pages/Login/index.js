@@ -84,7 +84,12 @@ const Login = () => {
 		e.preventDefault();
 		handleLogin(user);
 	};
+<table> 
+<tr>Lado Esquerdo</tr>
+<tr>Lado Direiro</tr>
 
+
+</table>
 	return (
 		<div className={classes.root}>
 		<Container component="main" maxWidth="xs">
