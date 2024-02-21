@@ -20,7 +20,7 @@ const messages = {
       login: {
         title: "Login",
         form: {
-          email: "E-mail",
+          email: "Email",
           password: "Senha",
         },
         buttons: {
