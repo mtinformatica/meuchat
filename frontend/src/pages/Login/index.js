@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
 	root: {
 		width: "100vw",
 		height: "100vh",
-		background: "#00A6FF",
+		background: "white",
 		//backgroundImage: "none",
 		backgroundRepeat: "no-repeat",
 		backgroundSize: "100% 100%",
