@@ -103,7 +103,8 @@ form{
 	bottom: -2px;
 	width: 0%;
 	height: 2px;
-	background-color:#00A6FF;
+	background-color: #2a89ff;
+	
 	transition: .4s;
 }
 
@@ -167,7 +168,7 @@ a:hover{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-image: #2a89ff;
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;

@@ -14,7 +14,7 @@ import Container from "@material-ui/core/Container";
 import { i18n } from "../../translate/i18n";
 
 import { AuthContext } from "../../context/Auth/AuthContext";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logologin.png";
 
 
 const Copyright = () => {
@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
 	root: {
 		width: "100vw",
 		height: "100vh",
-		background: "linear-gradient(to right, #0000FF , #0000CD , #000080)",
+		background: "white",
 		//backgroundImage: "none",
 		backgroundRepeat: "no-repeat",
 		backgroundSize: "100% 100%",
@@ -67,6 +67,7 @@ const useStyles = makeStyles(theme => ({
 	powered: {
 		color: "white"
 	}
+	
 }));
 
 const Login = () => {
@@ -88,23 +89,19 @@ const Login = () => {
 		
 		<div className={classes.root}>
 			<table>
-<tbody>
+<tbody width="100%">
 <tr>
-	<th>1</th>
-</tr>
+<th>
+	<div>
+		<img style={{ margin: "0 auto", width: "100%" }} src={logo} alt="Whats" />
+	</div>
+	
+	</th>
 
-<tr>
-	<th>2</th>
-</tr>
-...
-</tbody>
-</table>
-		<Container component="main" maxWidth="xs">
+	<th><Container component="main" maxWidth="xs">
 			<CssBaseline/>
 			<div className={classes.paper}>
-				<div>
-					<img style={{ margin: "0 auto", width: "100%" }} src={logo} alt="Whats" />
-				</div>
+				
 				{/*<Typography component="h1" variant="h5">
 					{i18n.t("login.title")}
 				</Typography>*/}
@@ -139,7 +136,7 @@ const Login = () => {
 						type="submit"
 						fullWidth
 						variant="contained"
-						color="primary"
+						color="#2a89ff"
 						className={classes.submit}
 					>
 						{i18n.t("login.buttons.submit")}
@@ -161,7 +158,13 @@ const Login = () => {
 			</div>
 			
 			
-		</Container>
+		</Container></th>
+
+	
+	</tr>
+</tbody>
+</table>
+		
 		</div>
 	);
 };
