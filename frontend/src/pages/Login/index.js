@@ -62,7 +62,7 @@ const useStyles = makeStyles(theme => ({
 		marginTop: theme.spacing(1),
 	},
 	submit: {
-		margin: theme.spacing(3, 0, 2),
+		margin: theme.spacing(3, 0, 2), height:"50px", width:"50%",
 	},
 	powered: {
 		color: "white"
@@ -89,11 +89,11 @@ const Login = () => {
 		
 		<div className={classes.root}>
 			<table>
-<tbody width="100%">
+<tbody>
 <tr>
 <th>
 	<div>
-		<img style={{ margin: "0 auto", width: "100%" }} src={logo} alt="Whats" />
+		<img style={{ margin: "0 auto", width: "80%" }} src={logo} alt="ChatAPP" />
 	</div>
 	
 	</th>
@@ -136,7 +136,7 @@ const Login = () => {
 						type="submit"
 						fullWidth
 						variant="contained"
-						color="#2a89ff"
+						color="primary"
 						className={classes.submit}
 					>
 						{i18n.t("login.buttons.submit")}

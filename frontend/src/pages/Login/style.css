@@ -72,7 +72,7 @@ form{
 }
 
 .i{
-	color: #d9d9d9;
+	color:#2a89ff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -126,7 +126,7 @@ form{
 }
 
 .input-div.focus > .i > i{
-	color: #38d39f;
+	color: #2a89ff;
 }
 
 .input-div > div > input{
@@ -158,7 +158,7 @@ a{
 }
 
 a:hover{
-	color: #38d39f;
+	color:#2a89ff;
 }
 
 .btn{
